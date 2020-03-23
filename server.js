@@ -4,7 +4,7 @@ let nodemailer = require('nodemailer');
 let cors = require('cors');
 let bodyParser = require('body-parser');
 const creds = require('./config/config.js');
-
+const PORT = process.env.PORT
 
 let transport = {
     host: 'smtp.gmail.com', // Don’t forget to replace with the SMTP host of your provider
@@ -56,4 +56,4 @@ app.use(cors())
 app.use(bodyParser.json())
 app.use(express.json())
 app.use('/', router)
-app.listen(3002, () => { console.log('Server started on port')})
+app.listen(PORT, () => { console.log('Server started on port')})
