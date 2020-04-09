@@ -6,7 +6,7 @@ module.exports = {
   deploy: {
     production: {
       user: 'ubuntu',
-      host: 'ec2-54-252-142-178.ap-southeast-2.compute.amazonaws.com',
+      host: 'ec2-13-211-135-173.ap-southeast-2.compute.amazonaws.com',
       key: '~/.ssh/portfolioEC.pem',
       ref: 'origin/master',
       repo: 'https://github.com/harrypatrick94/email-server-portfolio.git',
