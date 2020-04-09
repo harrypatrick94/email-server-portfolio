@@ -12,4 +12,5 @@ npm-debug.log
 .DS_Store
 /*.env
 **/yarn-error.log
+server.js
 ./config/config.js
