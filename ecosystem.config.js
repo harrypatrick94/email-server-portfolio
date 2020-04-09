@@ -1,6 +1,6 @@
 module.exports = {
   apps: [{
-    name: 'email-server-portfolio',
+    name: 'portfolioEC',
     script: './index.js'
   }],
   deploy: {
@@ -10,7 +10,7 @@ module.exports = {
       key: '~/.ssh/portfolioEC.pem',
       ref: 'origin/master',
       repo: 'https://github.com/harrypatrick94/email-server-portfolio.git',
-      path: '/home/ubuntu/server/email-server-portfolio',
+      path: '/home/ubuntu/server/portfolioEC',
       'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.js'
     }
   }
