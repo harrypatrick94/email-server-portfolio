@@ -10,7 +10,7 @@ module.exports = {
       key: '~/.ssh/portfolioEC.pem',
       ref: 'origin/master',
       repo: 'https://github.com/harrypatrick94/email-server-portfolio.git',
-      path: '/home/ubuntu',
+      path: '/home/ubuntu/email-server-portfolio',
       'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.js'
     }
   }
