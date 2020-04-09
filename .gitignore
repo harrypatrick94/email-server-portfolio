@@ -12,7 +12,4 @@ npm-debug.log
 .DS_Store
 /*.env
 **/yarn-error.log
-sendgrid.env
-serverOld.js
-server.js
 ./config/config.js
